@@ -21,7 +21,7 @@ public class backgroundService extends Service{
                     @Override
                     public void run() {
                         while (true){
-                            Log.e("Service", "Service is running...");
+                            Log.e("Service", "Background Service is running...");
                             try {
                                 Thread.sleep(2000);
                             } catch (InterruptedException e) {
